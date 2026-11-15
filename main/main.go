@@ -3,5 +3,25 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello Word")
+	numb := 0
+	fmt.Scan(&numb)
+	Chislo(numb)
+}
+
+func Nubmer(a int) {
+	if a == 0 {
+		fmt.Println("Number is null")
+	} else if a > 0 {
+		fmt.Println("Number is Positive")
+	} else if a < 0 {
+		fmt.Println("Number is Negative")
+	}
+}
+
+func Chislo(a int) {
+	for i := 0; i < a; i++ {
+		if i%2 == 0 {
+			fmt.Println(i)
+		}
+	}
 }
