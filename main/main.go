@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	numb := 0
 	fmt.Scan(&numb)
+	Nubmer(numb)
 	Chislo(numb)
 }
 
